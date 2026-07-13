@@ -1,0 +1,37 @@
+# Virtual environments
+fer_env/
+fer_face_env/
+.env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Debug / temp artifacts
+debug_*.png
+*.log
+
+# OpenCode agent config & state
+.omo/
+
+# Graphify output
+graphify-out/
+.codegraph/
+
+# Training checkpoints
+models/checkpoint_epoch*.txt
+models/training_history*.png
+
+# OS junk
+.DS_Store
+Thumbs.db
+"data/" 
+"data/" 

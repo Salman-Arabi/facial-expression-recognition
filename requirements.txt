@@ -1,0 +1,29 @@
+# =============================================================================
+# Facial Expression Recognition - Dependencies
+# =============================================================================
+#
+# IMPORTANT: There are TWO separate environments needed because mediapipe and
+# tensorflow have a protobuf version conflict and cannot coexist in the same
+# Python environment on Windows.
+#
+# Environment 1 — Inference (webcam demo)
+#   pip install -r requirements.txt --no-deps mediapipe
+#   pip install ai-edge-litert opencv-python mediapipe numpy
+#
+# Environment 2 — Training
+#   pip install tensorflow matplotlib scikit-learn pandas icrawler
+#
+# See README.md for detailed setup instructions.
+# =============================================================================
+
+# -- Inference runtime (fer_face_env) --
+opencv-python
+mediapipe
+ai-edge-litert
+numpy
+
+# -- Training only (fer_env) --
+# tensorflow
+# matplotlib
+# scikit-learn
+# pandas
